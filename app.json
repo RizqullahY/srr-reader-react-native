@@ -4,6 +4,7 @@
     "slug": "srr-reader-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
+    "platforms": ["android"],
     "icon": "./assets/images/icon.png",
     "scheme": "srrreaderreactnative",
     "userInterfaceStyle": "automatic",
@@ -12,6 +13,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.acedwaru.srr",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
